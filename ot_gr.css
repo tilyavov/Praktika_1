@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+  }
+  .content {
+    background-color: #ffffff;
+  }
+  
+  .TitleAbout {
+    height: 100%;
+    background-image: url(../resource/images/90.png);
+    background-repeat: repeat-x repeat-y;
+  }
+  
+  .siteMenu a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px 1px 30px 1px;
+    font-size: 15px;
+    color: rgb(197, 197, 197);
+    font-weight: 400;
+    transition: margin 0.2s ease-in-out;
+  }
+  
+  .siteMenu a:hover {
+    color: #fffbfb;
+    font-size: 16px;
+  }
+  
+  .siteMenu table {
+    border-top: 1px solid rgb(255, 255, 255);
+  }
+  
+  .siteMenu td {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .contactTitle h2 {
+    margin-top: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .contact {
+    box-sizing: border-box;
+    color: #cecece;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contact a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .adresses {
+    box-sizing: border-box;
+    padding: 0px 40px;
+    margin: 0;
+    width: 25%;
+  }
+  
+  .forminput {
+    box-sizing: border-box;
+    height: 200px;
+    width: 75%;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+  }
+  
+  .text-input-type {
+    border: solid 1px rgb(197, 197, 197);
+    border-radius: 10px;
+  }
+  
+  .infor-top {
+    width: 100%;
+    height: 200px;
+    padding-left: 100px;
+    padding-right: 160px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .infor-left {
+    width: 25%;
+    height: 220px;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+  .infor-left li {
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-left: 40px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.1 ease;
+  }
+  
+  .infor-left li:hover {
+    transform: scale(1.03); /* Увеличиваем масштаб */
+  }
+  
+  .infor-left a:hover {
+    color: #fffbfb;
+  }
+  
+  .infor-left h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    color: rgb(197, 197, 197);
+  }
+  
+  .infor-left h5 {
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+  .infor-left a {
+    text-decoration: none;
+    color: rgb(197, 197, 197));
+  }
+  
+  .ending {
+    margin: 5px 180px 0px 180px---;
+    border-top:rgb(197, 197, 197) solid 1px;
+    width: 1170px;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .companyinfo {
+    width: 60%;
+    margin: 0 auto; 
+  }
+
+  .companyinfo h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffce08;
+    font-size: 34px;
+  }
+  
+  .companyinfo p {
+    /* padding: 10px 200px 0px 200px; */
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fdd949;
+    font-size: 20px;
+  }
+
+  .img img {
+    margin: 25px auto;
+    transition: 0.5s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+    border: 2px solid #d6d6d6;
+    /* height: 1000px; */
+    width: 100%;
+     box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5 ease;
+  }

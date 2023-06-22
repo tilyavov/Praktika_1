@@ -1,0 +1,193 @@
+body {
+  margin: 0px;
+}
+.content {
+  background-color: #ffffff;
+}
+
+
+
+
+.siteMenu a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1px 1px 30px 1px;
+  font-size: 15px;
+  color: rgb(116, 116, 116);
+  font-weight: 400;
+}
+
+.siteMenu a:hover {
+  color: #d2d2d2;
+  font-size: 16px;
+}
+
+.siteMenu table {
+  border-top: 1px solid rgb(194, 194, 194);
+}
+
+.siteMenu td {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+.product {
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.listWatches {
+  margin: 10 0px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.rowsstore {
+  box-sizing: border-box;
+  height: auto;
+  margin: 10 auto;
+  text-align: center;
+}
+
+.pwatches {
+  display: block;
+  width: 25%;
+  max-width: 300px;
+  max-height: 500px;
+  padding: 10px 50px 70px 10px;
+  display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+  margin-right: -0.25em;
+  box-sizing: border-box;
+}
+
+.pwatches img {
+  width: 100%;
+}
+
+.pwatches a {
+  text-decoration: none;
+  color: rgb(79, 79, 79);
+}
+
+.bottomWatches {
+  border: 2px solid #d6d6d6;
+  height: 380px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5 ease;
+}
+
+.mask {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+
+.mask img {
+  margin: 25px auto;
+  transition: 0.5s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+}
+
+.pwatches .bottomWatches:hover img {
+  transform: scale(1.05); /* Увеличиваем масштаб */
+}
+
+.pwatches .bottomWatches:hover {
+  margin: 0 auto;
+  border: 2px solid rgb(0, 106, 182);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.pwatches .bottomWatches:hover p {
+  color: rgb(0, 111, 185);
+}
+
+.pwatches .bottomWatches:hover h2 {
+  color: rgb(88, 156, 0);
+}
+
+.watchPrice {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.watchPrice h2 {
+  margin: 5px 0;
+  padding-left: 40px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.5 ease;
+}
+
+.watchPrice p {
+  margin: 0;
+  padding-left: 40px;
+  text-align: left;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.5 ease;
+}
+
+.infor-top {
+  width: 100%;
+  height: 200px;
+  padding-left: 100px;
+  padding-right: 160px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.infor-left {
+  width: 25%;
+  height: 220px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.infor-left li {
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  padding-left: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.1 ease;
+}
+
+.infor-left li:hover {
+  transform: scale(1.03); /* Увеличиваем масштаб */
+}
+
+.infor-left a:hover {
+  color: #2c2c2c;
+}
+
+.infor-left h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 80px;
+  color: #484848;
+}
+
+.infor-left h5 {
+  color: #2b3653;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.infor-left a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+}
+
+.ending {
+  margin: 5px 180px;
+  border-top: #9eb3ff solid 1px;
+  width: 1170px;
+  text-align: right;
+  text-decoration: none;
+  color: #525252;
+  font-size: 15px;
+  box-sizing: border-box;
+}
